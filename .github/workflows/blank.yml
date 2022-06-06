@@ -37,4 +37,4 @@ jobs:
           pip install robotframework
       - name: Run tests
         run: |
-          robot --version
+          robot tests.robot
