@@ -47,6 +47,7 @@ jobs:
           pip install robotframework
           
   testing:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Testing
